@@ -23,12 +23,15 @@
             android:background="@color/photo_placeholder"
             android:layout_alignParentBottom="true"
             android:layout_alignParentTop="true" />
-
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/photo_background_protection"/>
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/photo_background_protection"
+
             android:layout_alignParentBottom="true">
             <TextView
                 android:id="@+id/article_title"
@@ -51,7 +54,7 @@
                 android:paddingLeft="16dp"
                 android:paddingRight="16dp"
                 android:paddingBottom="16dp"
-                android:textColor="#6000"
+                android:textColor="#cccc"
                 android:maxLines="1"
                 android:ellipsize="end" />
         </LinearLayout>
