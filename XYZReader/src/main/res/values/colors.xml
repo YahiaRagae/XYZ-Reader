@@ -18,8 +18,15 @@
 <resources>
     <color name="photo_placeholder">#ccc</color>
 
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
-    <color name="theme_accent">#04561A</color>
+
+    <color name="colorPrimary">#723E80</color>
+    <color name="colorAccent">#CF2467</color>
+    <color name="colorPrimaryDark">#5B1A6F</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="navigationBarColor">#ffffff</color>
+    <color name="windowBackground">#000000</color>
+    <color name="colorYellow">#efac2a</color>
+
+
     <color name="ltgray">#ffe0e0e0</color>
 </resources>
